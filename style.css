@@ -89,7 +89,7 @@
   flex-direction: row-reverse;
 }
 
-.phone {
+/* .phone {
   flex: 1;
   width: 300px;
   height: 600px;
@@ -112,7 +112,7 @@
 
 .phoneApp {
   width: 100%;
-}
+} */
 
 .projectDetail {
   flex: 1;
@@ -123,7 +123,7 @@
 }
 
 .projectTitle {
-  font-size: 7vw;
+  font-size: 4vw;
   color: #555;
 }
 
