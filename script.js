@@ -35,11 +35,11 @@ window.addEventListener("scroll", () => {
   saluteImgContainer.style.transform = `translate(${offsetY * 0.4}px, ${
     offsetY * 0.7
   }px)`;
-  authorName.style.transform = `translateX(${offsetY * 0.1}px)`;
+  authorName.style.transform = `translateX(${offsetY * 0.02}px)`;
   jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 0.5}px`;
   jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * 0.5}px`;
-  jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`;
-  jobTitles[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`;
+  jobTitles[0].style.transform = `translateX(calc(205vh - ${offsetY}px))`;
+  jobTitles[1].style.transform = `translateX(calc(-299vh + ${offsetY}px))`;
   projectsTitle.style.transform = `translateY(calc(400vh - ${offsetY}px))`;
   laptops[0].style.transform = `translateX(calc(480vh - ${offsetY}px))`;
   laptops[1].style.transform = `translateX(calc(620vh - ${offsetY}px))`;

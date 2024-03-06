@@ -196,7 +196,13 @@
 }
 
 .githubTitle {
+  text-align: center;
   font-size: 100px;
+  color: #333;
+}
+
+.githubTitle a {
+  text-decoration: none;
   color: #333;
 }
 
